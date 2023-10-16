@@ -1,0 +1,52 @@
+:root {
+    --cor-primaria: #3498db;
+    --cor-secundaria: #e74c3c;
+    --fonte-principal: Arial, sans-serif;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+header {
+    background-color: var(--cor-primaria);
+    color: rgb(255, 0, 0);
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: var(--cor-secundaria);
+}
+
+/* Estilize as outras seções, serviços e o rodapé de acordo com suas preferências. */
+
